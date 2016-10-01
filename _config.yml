@@ -1,0 +1,14 @@
+url: http://cjlaw.github.io
+baseurl:
+
+# Site Settings
+title: Casey Lawrence
+description: "Learning a little about Casey Lawrence"
+keywords: ""
+google-tracking-id:
+
+# Career Settings
+# Default career thumbnail image.
+career-img: "img/timeline/default.jpg"
+
+exclude: ["Rakefile", "LICENSE", "readme.markdown"]

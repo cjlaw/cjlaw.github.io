@@ -4,4 +4,4 @@ title: June 2014 - Present
 subtitle:
 image: "img/timeline/2.jpg"
 ---
-Headspring Systems, a consulting company specializing in business transformation, providing the best ROI in the industry.
+Headspring, a consulting company specializing in custom application development services

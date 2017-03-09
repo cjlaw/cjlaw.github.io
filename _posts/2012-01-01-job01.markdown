@@ -1,7 +1,0 @@
----
-layout: null
-title: June 2014 - Present
-subtitle:
-image: "img/timeline/2.jpg"
----
-Headspring, a consulting company specializing in custom application development services

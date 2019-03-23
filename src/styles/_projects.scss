@@ -5,9 +5,10 @@
   width: 90%;
   max-width: 960px;
   margin: 0 auto;
+  text-align: center;
   @media only screen and (min-width: $cut) {
     width: 80%;
-    text-align: center;
+    text-align: start;
   }
 }
 

@@ -36,13 +36,6 @@
   }
 }
 
-.contents > h3 {
-  @media only screen and (min-width: $cut) {
-    margin-top: 0; 
-    padding-top: 0;
-  }
-}
-
 .contents-right {
   @media only screen and (min-width: $cut) {
     float: right;
@@ -75,8 +68,7 @@
 }
 
 .project-link {
-  display: block;
-  width: 100px;
+  display: inline-block;
   margin: 10px 0px;
   padding: 5px;
   color: $main;

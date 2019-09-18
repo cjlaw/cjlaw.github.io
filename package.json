@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "jekyll build",
-    "serve": "jekyll serve"
+    "build": "gulp"
   },
   "author": "Casey Lawrence",
   "license": "MIT",

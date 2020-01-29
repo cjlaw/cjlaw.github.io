@@ -5,14 +5,15 @@
         <span class="site-description">{{site.user_title}}</span>
       </h1>
       <div class="header-icons">
-        <a aria-label="My Github" target="_blank" href="https://github.com/cjlaw"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
-        <a aria-label="My Twitter" target="_blank" href="https://twitter.com/casey_lawr"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
-        <a aria-label="Send email" href="mailto:casey.j.lawrence@gmail.com"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/casey-lawrence-b03b3b86/"><i class="icon fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a aria-label="My Github" target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+        <a aria-label="My Twitter" target="_blank" href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+        <a aria-label="Send email" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><i class="icon fa fa-linkedin-square" aria-hidden="true"></i></a>
       </div>
       <div class="header-links">
         <a class="link" href="#about" data-scroll>About Me</a>
         <a class="link" href="#projects" data-scroll>Projects</a>
+        <a class="link" href="/resume">Resume</a>
       </div>
   </div>
 </div>

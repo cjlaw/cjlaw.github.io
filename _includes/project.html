@@ -1,0 +1,20 @@
+<div class="user-projects">
+  {%- if include.item.layout =="right"-%}
+  <div class="images-left">
+  {%- endif -%}
+  {%- if include.item.layout =="left"-%}
+  <div class="images-right">
+  {%- endif -%}
+    <img alt="{{include.item.img_alt_text}}" src="{{ include.item.img_path | prepend: site.baseurl }}" />
+  </div>
+  {%- if include.item.layout =="right"-%}
+  <div class="contents-right">
+  {%- endif -%}
+  {%- if include.item.layout =="left"-%}
+  <div class="contents-left">
+  {%- endif -%}
+    <h3> {{ include.item.title }} </h3>
+    <p>{{ include.item.description | strip | markdownify }}</p>
+    <a class="project-link" target="_blank" href="{{ include.item.url }}">Check it out</a>
+  </div>
+</div>

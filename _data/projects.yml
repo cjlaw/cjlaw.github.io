@@ -1,0 +1,29 @@
+--- 
+- 
+  layout: left
+  title: "Yeti Custom Shop"
+  img_alt_text: yeti
+  img_path: /assets/img/yeti.jpg
+  url: "http://yeticustomshop.com/"
+  description: "Yeti Custom Shop is a fully custom e-commerce application layered on top of a enterprise-level, cloud-based ERP. My focus was cross-browser compatibility and helping prepare for major marketing initiatives, such as promotions for the start of college football season."
+- 
+  layout: right
+  title: "Carrington Connects"
+  img_alt_text: connects
+  img_path: /assets/img/carrington.jpg
+  url: "https://www.carringtonconnects.com/"
+  description: "Carrington Connects (now Vylla) helps people find homes, get loans, and provides resources for home owners. I helped deliver groundbreaking new features, including integrating with a custom Salesforce implementation and allowing users to shop for homes by an estimated monthly payment amount."
+- 
+  layout: left
+  title: "Volunteer Houston"
+  img_alt_text: "volunteer houston"
+  img_path: /assets/img/vh.jpg
+  url: "https://itunes.apple.com/us/app/volunteerhou/id1153250051?mt=8"
+  description: "The Volunteer Houston organization wanted a mobile application that would allow people to seach for volunteering opportunities near them. Built with [Xamarin Forms](https://www.xamarin.com/forms), the app was published to both the iOS and Android platforms, and allowed users to search for, get additional information about, and RSVP for volunteer opportunities."
+- 
+  layout: right
+  title: "USBC Event Registration"
+  img_alt_text: usbc
+  img_path: /assets/img/usbc.png
+  url: "https://webapps.bowl.com/USBC.Registration"
+  description: "The United States Bowling Congress (USBC) is the national governing body for ten-pin bowling in the United States. Working to serve a variety of users, I helped design & build an event registration system to setup and manage the various types of tournaments conducted by the organization."

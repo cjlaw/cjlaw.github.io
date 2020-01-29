@@ -1,6 +1,7 @@
 # Site settings
 title: Casey Lawrence
 description: Casey Lawrence, Software Developer
+website: https://caseylawrence.dev/
 
 # User settings
 username: Casey Lawrence
@@ -8,11 +9,11 @@ user_description:
 user_title: Software Developer
 email: casey.j.lawrence@gmail.com
 twitter_username: casey_lawr
-github_username:  cjlaw
-gplus_username:  
+github_username: cjlaw
+linkedin_username: casey-lawrence-b03b3b86
 
 # Google-analytics
 google-analytics:
-  id: "UA-131904107-1"
+  id:
 
 exclude: ['package.json', 'src' , 'node_modules']

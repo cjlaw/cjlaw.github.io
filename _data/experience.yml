@@ -1,0 +1,41 @@
+- layout: left
+  company: Accenture
+  link: 
+  job_title: Software Product & Platform Engineering Specialist
+  dates: January 2020 - Present
+  quote:
+  description: | 
+    Technical lead and full-stack .NET developer
+
+- layout: left
+  company: Fairway Technologies
+  link:
+  jobs:
+    - title: Lead Developer
+      dates: August 2018 - December 2019
+    - title: Senior Developer
+      dates: August 2017 - August 2018
+  quote:
+  description: | 
+    Technical lead and full-stack .NET developer. As one of the founding members of the Fairway Austin office, I helped develop local culture, assisted with recruiting, and building a local client base.
+
+- layout: left
+  company: Headspring
+  link:
+  job_title: Senior Consultant
+  dates: June 2014 - August 2017
+  quote:
+  description: | 
+    Full-stack .NET developer, with a focus on front end development. Worked alongside 11 different clients on 13 different projects to deliver custom web and mobile applications to meet their business needs. Worked with clients in a variety of domains, including healthcare, non-profit, e-commerce, and education.
+
+- layout: left
+  company: CGI Federal
+  link:
+  jobs:
+    - title: Senior Consultant
+      dates: December 2013 - June 2014
+    - title: Consultant
+      dates: March 2012 - December 2013
+  quote:
+  description: | 
+    Front-end developer. Later led a team of front end developers responsible for building new web applications and maintaining legacy systems for the federal government.

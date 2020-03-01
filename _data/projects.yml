@@ -19,7 +19,7 @@
   img_alt_text: "volunteer houston"
   img_path: /assets/img/vh.jpg
   url: "https://itunes.apple.com/us/app/volunteerhou/id1153250051?mt=8"
-  description: "The Volunteer Houston organization wanted a mobile application that would allow people to seach for volunteering opportunities near them. Built with [Xamarin Forms](https://www.xamarin.com/forms), the app was published to both the iOS and Android platforms, and allowed users to search for, get additional information about, and RSVP for volunteer opportunities."
+  description: "The Volunteer Houston organization wanted a mobile application that would allow people to seach for volunteering opportunities near them. Built with Xamarin Forms, the app was published to both the iOS and Android platforms, and allowed users to search for, get additional information about, and RSVP for volunteer opportunities."
 - 
   layout: right
   title: "USBC Event Registration"

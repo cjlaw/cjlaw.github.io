@@ -27,3 +27,10 @@
   img_path: /assets/img/usbc.png
   url: "https://webapps.bowl.com/USBC.Registration"
   description: "The United States Bowling Congress (USBC) is the national governing body for ten-pin bowling in the United States. Working to serve a variety of users, I helped design & build an event registration system to setup and manage the various types of tournaments conducted by the organization."
+- 
+  layout: left
+  title: "Workify"
+  img_alt_text: "workify"
+  img_path: /assets/img/workify.png
+  url: "https://www.getworkify.com/"
+  description: "Workify is an employee survey & feedback platform. Using the Ionic Framework, I helped Workify build hybrid mobile app that allowed employees to submit suggestions to their employers anonymously, and allowed employers to conduct pulse surveys to collect real-time feedback from their employees."

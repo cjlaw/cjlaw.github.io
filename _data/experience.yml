@@ -1,11 +1,11 @@
 - layout: left
   company: Accenture
-  link: 
+  link:
   job_title: Software Product & Platform Engineering Specialist
   dates: January 2020 - Present
   quote:
-  description: | 
-    Technical lead and full-stack developer. I lead small to medium sized distributed engineering teams, both onshore and offshore.
+  description: |
+    Technical lead and full-stack developer. I lead globally distributed teams that focus on cloud native applications, cloud enablement, and platform enablement.
 
 - layout: left
   company: Fairway Technologies
@@ -16,8 +16,8 @@
     - title: Senior Developer
       dates: August 2017 - August 2018
   quote:
-  description: | 
-    Technical lead and full-stack .NET developer. I remotely led and contributed to projects in the real estate industry. I was also one of the founding members of the Fairway Austin office, where I helped develop local culture, assisted with recruiting, and establishing a local client base.
+  description: |
+    Technical lead and full-stack .NET developer. I led and contributed to projects across several industries. I was also one of the founding members of the Fairway Austin office, where I helped develop local culture, assisted with recruiting, and establishing a local client base.
 
 - layout: left
   company: Headspring
@@ -25,7 +25,7 @@
   job_title: Senior Consultant
   dates: June 2014 - August 2017
   quote:
-  description: | 
+  description: |
     Full-stack .NET developer, with a focus on front-end development. Worked alongside 11 different clients in a variety of industries, including human resources, healthcare, non-profit, e-commerce, and education.
 
 - layout: left
@@ -37,5 +37,5 @@
     - title: Consultant
       dates: March 2012 - December 2013
   quote:
-  description: | 
+  description: |
     Started as a front-end developer, and later led a team of front-end developers responsible for building new web applications and maintaining legacy systems for the Centers for Medicare & Medicaid Services.

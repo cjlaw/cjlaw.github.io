@@ -1,8 +1,11 @@
 - layout: left
   company: Accenture
   link:
-  job_title: Software Product & Platform Engineering Specialist
-  dates: January 2020 - Present
+  jobs:
+    - title: Software Product & Platform Associate Manager
+      dates: December 2021 - Present
+    - title: Software Product & Platform Engineering Specialist
+      dates: January 2020 - December 2021
   quote:
   description: |
     Technical lead and full-stack developer. I lead globally distributed teams that focus on cloud native applications, cloud enablement, and platform enablement.

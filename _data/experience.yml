@@ -2,18 +2,20 @@
   company: Accenture
   link:
   jobs:
-    - title: Manager, Product & Platform Engineering Services
-      dates: December 2022 - Present
-    - title: Associate Manager, Product & Platform Engineering Services
+    - title: Manager, Tech Architecture (Accenture Federal Services)
+      dates: December 2023 - Present
+    - title: Manager, Client Platform Business
+      dates: December 2022 - December 2023
+    - title: Associate Manager, Client Platform Business
       dates: December 2021 - December 2022
-    - title: Specialist, Product & Platform Engineering Services
+    - title: Specialist, Client Platform Business
       dates: January 2020 - December 2021
   quote:
   description: |
-    As a technical lead and full-stack developer I led globally distributed teams that focused on cloud native applications, cloud migration, and platform enablement.
+    At Accenture I managed globally distributed teams that focused on enterprise cloud native applications and cloud migrations in the human capital management industry. At Accenture Federal Services I led teams that specialized in modernizing applications for the U.S. Federal Government. The teams were uniquely diverse, with members spanning various experience levels from entry to senior, all collaborating remotely from across the U.S.
 
 - layout: left
-  company: Fairway Technologies (now part of Accenture)
+  company: Fairway Technologies
   link:
   jobs:
     - title: Lead Developer

@@ -1,12 +1,12 @@
 # Site settings
 title: Casey Lawrence
-description: Casey Lawrence, Software Developer
+description: Casey Lawrence
 website: https://caseylawrence.dev/
 
 # User settings
 username: Casey Lawrence
 user_description:
-user_title: Software Developer
+user_title: Team Lead & Full-Stack Developer
 email: casey.j.lawrence@gmail.com
 github_username: cjlaw
 linkedin_username: casey-lawrence-b03b3b86
@@ -15,4 +15,4 @@ linkedin_username: casey-lawrence-b03b3b86
 google-analytics:
   id:
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ["package.json", "src", "node_modules"]

@@ -1,11 +1,18 @@
 - layout: left
   company: Accenture
-  link: 
-  job_title: Software Product & Platform Engineering Specialist
-  dates: January 2020 - Present
+  link:
+  jobs:
+    - title: Manager, Tech Architecture (Accenture Federal Services)
+      dates: December 2023 - Present
+    - title: Manager, Client Platform Business
+      dates: December 2022 - December 2023
+    - title: Associate Manager, Client Platform Business
+      dates: December 2021 - December 2022
+    - title: Specialist, Client Platform Business
+      dates: January 2020 - December 2021
   quote:
-  description: | 
-    Technical lead and full-stack .NET developer
+  description: |
+    At Accenture I managed globally distributed teams that focused on enterprise cloud native applications and cloud migrations in the human capital management industry. At Accenture Federal Services I led teams that specialized in modernizing applications for the U.S. Federal Government. The teams were uniquely diverse, with members spanning various experience levels from entry to senior, all collaborating remotely from across the U.S.
 
 - layout: left
   company: Fairway Technologies
@@ -16,8 +23,8 @@
     - title: Senior Developer
       dates: August 2017 - August 2018
   quote:
-  description: | 
-    Technical lead and full-stack .NET developer. As one of the founding members of the Fairway Austin office, I helped develop local culture, assisted with recruiting, and building a local client base.
+  description: |
+    I served as a technical lead and full-stack .NET developer across multiple real estate products. As one of the founding members of the Fairway Austin location I helped develop local culture, assisted with recruiting, and aided in establishing a local client base.
 
 - layout: left
   company: Headspring
@@ -25,8 +32,8 @@
   job_title: Senior Consultant
   dates: June 2014 - August 2017
   quote:
-  description: | 
-    Full-stack .NET developer, with a focus on front end development. Worked alongside 11 different clients on 13 different projects to deliver custom web and mobile applications to meet their business needs. Worked with clients in a variety of domains, including healthcare, non-profit, e-commerce, and education.
+  description: |
+    As a full-stack .NET developer with a focus on front-end development I worked alongside a dozen different clients in a variety of industries including human resources, healthcare, non-profit, e-commerce, and education.
 
 - layout: left
   company: CGI Federal
@@ -37,5 +44,5 @@
     - title: Consultant
       dates: March 2012 - December 2013
   quote:
-  description: | 
-    Front-end developer. Later led a team of front end developers responsible for building new web applications and maintaining legacy systems for the federal government.
+  description: |
+    I contributed to and later led a team of front-end developers responsible for building new web applications and maintaining legacy systems for the Centers for Medicare & Medicaid Services.

@@ -2,17 +2,15 @@
   company: Accenture
   link:
   jobs:
-    - title: Manager, Tech Architecture (Accenture Federal Services)
+    - title: Manager
       dates: December 2023 - Present
-    - title: Manager, Client Platform Business
-      dates: December 2022 - December 2023
-    - title: Associate Manager, Client Platform Business
+    - title: Associate Manager
       dates: December 2021 - December 2022
-    - title: Specialist, Client Platform Business
+    - title: Specialist
       dates: January 2020 - December 2021
   quote:
   description: |
-    At Accenture I managed globally distributed teams that focused on enterprise cloud native applications and cloud migrations in the human capital management industry. At Accenture Federal Services I led teams that specialized in modernizing applications for the U.S. Federal Government. The teams were uniquely diverse, with members spanning various experience levels from entry to senior, all collaborating remotely from across the U.S.
+    Software development team lead, tech lead, and senior full-stack developer. In the private sector I led globally distributed, offshore/onshore mixed teams focused on cloud migrations. In the public sector I led diverse, cross-functional onshore teams distributed across the U.S. focused on modernizing applications for the U.S. Federal Government.
 
 - layout: left
   company: Fairway Technologies
@@ -24,7 +22,7 @@
       dates: August 2017 - August 2018
   quote:
   description: |
-    I served as a technical lead and full-stack .NET developer across multiple real estate products. As one of the founding members of the Fairway Austin location I helped develop local culture, assisted with recruiting, and aided in establishing a local client base.
+    Senior full-stack .NET developer and tech lead on multiple software projects in the real estate industry. As one of the founding members of the Fairway Austin location I helped develop local culture, assisted with recruiting, and aided in establishing a local client base.
 
 - layout: left
   company: Headspring
@@ -33,7 +31,7 @@
   dates: June 2014 - August 2017
   quote:
   description: |
-    As a full-stack .NET developer with a focus on front-end development I worked alongside a dozen different clients in a variety of industries including human resources, healthcare, non-profit, e-commerce, and education.
+    Full-stack .NET developer with a focus on front-end development. I worked alongside a dozen different clients in a variety of industries including human resources, healthcare, non-profit, e-commerce, and education.
 
 - layout: left
   company: CGI Federal
@@ -45,4 +43,4 @@
       dates: March 2012 - December 2013
   quote:
   description: |
-    I contributed to and later led a team of front-end developers responsible for building new web applications and maintaining legacy systems for the Centers for Medicare & Medicaid Services.
+    Front-end developer and lead of a small team of front-end developers responsible for building new web applications and maintaining legacy systems for the Centers for Medicare & Medicaid Services.

@@ -2,21 +2,32 @@
   "name": "caseylawrence.dev",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "jekyll build",
-    "serve": "jekyll serve"
-  },
   "author": "Casey Lawrence",
   "license": "MIT",
-  "dependencies": {
-    "browser-sync": "^3.0.3",
-    "gulp": "^5.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^4.0.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^6.0.0",
-    "gulp-uglify": "^3.0.2"
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build:css:main": "sass src/styles/main.scss assets/css/main.css --style=compressed --no-source-map",
+    "build:css:resume": "sass src/styles/resume.scss assets/resume.css --style=compressed --load-path=_sass --no-source-map",
+    "build:css": "npm-run-all build:css:main build:css:resume",
+    "build:js": "esbuild src/js/app.js --minify --platform=browser --outfile=assets/js/main.js",
+    "copy:vendor-js": "cpx \"src/js/vendor/*.js\" assets/js",
+    "copy:fonts": "cpx \"src/fonts/**\" assets/fonts",
+    "build:img": "node scripts/optimize-images.mjs",
+    "build:assets": "npm-run-all build:css build:js copy:vendor-js copy:fonts build:img",
+    "build:eleventy": "eleventy",
+    "build": "npm-run-all build:assets build:eleventy",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "cpx2": "^8.0.2",
+    "esbuild": "^0.28.0",
+    "js-yaml": "^4.1.0",
+    "markdown-it": "^14.1.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.99.0",
+    "sharp": "^0.34.5"
   }
 }

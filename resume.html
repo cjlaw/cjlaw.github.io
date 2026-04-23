@@ -3,29 +3,29 @@ permalink: /resume/
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<html lang="en">
 
-{%- include_relative _includes/resume/head.html -%}
+{% include "resume/head.html" %}
 
 <body>
 
-    {%- include_relative _includes/resume/header.html -%}
+    {% include "resume/header.html" %}
 
     <main class="page-content" aria-label="Content">
         <div class="wrapper">
 
-            {%- include_relative _includes/resume/about.html -%}
+            {% include "resume/about.html" %}
 
-            {%- include_relative _includes/resume/skills.html -%}
+            {% include "resume/skills.html" %}
 
-            {%- include_relative _includes/resume/experience.html -%}
+            {% include "resume/experience.html" %}
 
-            {%- include_relative _includes/resume/education.html -%}
+            {% include "resume/education.html" %}
 
         </div>
     </main>
 
-    {%- include_relative _includes/resume/footer.html -%}
+    {% include "resume/footer.html" %}
 
 </body>
 

@@ -1,5 +1,6 @@
 <div class="user-details">
   <h1>Featured Projects</h1>
 </div>
-{% for project in site.data.projects %} {% include home/project.html
-item=project %} {% endfor %}
+{% for project in projects %}
+  {% include "home/project.html", item: project %}
+{% endfor %}

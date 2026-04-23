@@ -1,30 +1,30 @@
 <div class="row clearfix layout layout-top-middle">
   <div class="col-xs-12 col-print-12 details">
-    {%- if include.item.name -%}<h4>{{ include.item.name }}</h4>{%- endif -%}
-    {%- if include.item.company -%}<h4>{{ include.item.company }}</h4>{%- endif -%}
-    {%- if include.item.link -%}
-      {% include resume/a.html href=include.item.link class="link" %}{{ include.item.link }}</a>
+    {%- if item.name -%}<h4>{{ item.name }}</h4>{%- endif -%}
+    {%- if item.company -%}<h4>{{ item.company }}</h4>{%- endif -%}
+    {%- if item.link -%}
+      {% include "resume/a.html", href: item.link, class: "link" %}{{ item.link }}</a>
     {%- endif -%}
-    {%- if include.item.job_title -%}<p><b>{{ include.item.job_title }}</b></p>{%- endif -%}
-    {%- if include.item.qualification -%}<p><b>{{ include.item.qualification }}</b></p>{%- endif -%}
-    {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
-    {%- if include.item.location -%}<p>{{ include.item.location }}</p>{%- endif -%}
-    {% for job in include.item.jobs %}
+    {%- if item.job_title -%}<p><b>{{ item.job_title }}</b></p>{%- endif -%}
+    {%- if item.qualification -%}<p><b>{{ item.qualification }}</b></p>{%- endif -%}
+    {%- if item.dates -%}<p>{{ item.dates }}</p>{%- endif -%}
+    {%- if item.location -%}<p>{{ item.location }}</p>{%- endif -%}
+    {% for job in item.jobs %}
       <p><b>{{ job.title }}</b></p>
       <p>{{ job.dates }}</p>
     {% endfor %}
-    {%- if include.item.github -%}
+    {%- if item.github -%}
       <p class="no-print">
-        <a href="https://github.com/{{ include.item.github }}" target="_blank">
-          <i class="fa fa-github" title="{{ include.item.name }} Github link"></i>
+        <a href="https://github.com/{{ item.github }}" target="_blank">
+          <i class="fa fa-github" title="{{ item.name }} Github link"></i>
         </a>
       </p>
     {%- endif -%}
   </div>
   <div class="col-xs-12 col-print-12">
-    {%- if include.item.quote -%}
-      <p class="quote">{{ include.item.quote }}</p>
+    {%- if item.quote -%}
+      <p class="quote">{{ item.quote }}</p>
     {%- endif -%}
-    {{ include.item.description | strip | markdownify }}
+    {{ item.description | strip | markdownify }}
   </div>
 </div>

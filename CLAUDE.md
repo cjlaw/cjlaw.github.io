@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 Node 22 is required (see `.nvmrc`). Run `nvm use` before npm commands.
 
 ```bash
-npm ci                   # install Node dependencies
+npm install              # install Node dependencies (use npm ci for a clean, lockfile-strict install — what CI runs)
 npm run build            # build assets + run Eleventy → _site/
 npm run build:assets     # compile CSS, JS, copy fonts/vendor, optimize images only
 npm run build:eleventy   # run Eleventy only (templates → _site/)

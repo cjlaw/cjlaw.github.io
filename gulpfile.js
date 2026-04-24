@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var csso = require('gulp-csso');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
-var sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 var plumber = require('gulp-plumber');
 var cp = require('child_process');
 var imagemin = require('gulp-imagemin');
@@ -54,7 +54,7 @@ gulp.task('sass', function() {
 * Compile fonts
 */
 gulp.task('fonts', function() {
-	return gulp.src('src/fonts/**/*.{ttf,woff,woff2}')
+	return gulp.src('src/fonts/**/*.{ttf,woff,woff2}', { encoding: false })
 		.pipe(plumber())
 		.pipe(gulp.dest('assets/fonts/'))
 });
@@ -63,7 +63,7 @@ gulp.task('fonts', function() {
  * Minify images
  */
 gulp.task('imagemin', function() {
-	return gulp.src('src/img/**/*.{jpg,png,gif}')
+	return gulp.src('src/img/**/*.{jpg,png,gif}', { encoding: false })
 		.pipe(plumber())
 		.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
 		.pipe(gulp.dest('assets/img/'))

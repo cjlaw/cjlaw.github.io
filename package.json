@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build:css:main": "sass src/styles/main.scss assets/css/main.css --style=compressed --no-source-map",
-    "build:css:resume": "sass src/styles/resume.scss assets/resume.css --style=compressed --load-path=_sass --no-source-map",
+    "build:css:resume": "sass src/styles/resume/resume.scss assets/resume.css --style=compressed --no-source-map",
     "build:css": "npm-run-all build:css:main build:css:resume",
     "build:js": "esbuild src/js/app.js --minify --platform=browser --outfile=assets/js/main.js",
     "copy:vendor-js": "cpx \"src/js/vendor/*.js\" assets/js",

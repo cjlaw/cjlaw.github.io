@@ -5,16 +5,7 @@
 
   <title>Resume | {{ site.title }}</title>
 
-  <link rel="stylesheet" href="{{ '/assets/css/resume/resume.css' | relative_url }}">
-  <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | default: 'favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="/assets/resume.css">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | default: '/favicon.ico' }}">
 
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
-  {%- if jekyll.environment == 'production' and site.gtm -%}
-    {%- include gtm_head.html -%}
-  {%- endif -%}
-  {%- if jekyll.environment == 'production' and site.gtag -%}
-    {%- include gtag.html -%}
-  {%- endif -%}
 </head>

@@ -1,0 +1,9 @@
+node_modules/
+_site/
+src/
+assets/
+scripts/
+gulpfile.js
+CLAUDE.md
+README.md
+LICENSE.txt

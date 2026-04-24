@@ -1,6 +1,7 @@
 <div class="container education-container">
   <h3>{{ site.education_title | default: "Education" }}</h3>
-  {% for education in site.data.education %}
-    {% include {{ education.layout | default: 'left' | prepend: "resume/" | append: ".html" }} item=education %}
+  {% for edu in education %}
+    {% assign layout_file = edu.layout | default: 'left' | prepend: "resume/" | append: ".html" %}
+    {% include layout_file, item: edu %}
   {% endfor %}
 </div>

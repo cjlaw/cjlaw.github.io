@@ -1,7 +1,0 @@
-<div class="container projects-container">
-  <h3>{{ site.projects_title | default: "Projects" }}</h3>
-  {% for proj in projects %}
-    {% assign layout_file = proj.layout | default: 'left' | prepend: "resume/" | append: ".html" %}
-    {% include layout_file, item: proj %}
-  {% endfor %}
-</div>

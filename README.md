@@ -5,11 +5,11 @@ Built upon the ["Particle Theme"](https://github.com/nrandecker/particle) by Nat
 # Running Locally
 
 ## Required Dependencies
-- [Jekyll](https://jekyllrb.com/docs/installation/)
-- [Node](https://nodejs.org/en/download/)
+- [Node](https://nodejs.org/en/download/) 22 (see `.nvmrc`)
 
 ## Locally
 1. Fork/clone this repo locally
 2. `cd cjlaw.github.io`
-3. `npm i`
-4. `npm run build`
+3. `nvm use`
+4. `npm install`
+5. `npm run build` (or `npm run serve` for a dev server with live reload)

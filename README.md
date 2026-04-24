@@ -10,6 +10,6 @@ Built upon the ["Particle Theme"](https://github.com/nrandecker/particle) by Nat
 ## Locally
 1. Fork/clone this repo locally
 2. `cd cjlaw.github.io`
-3. `nvm use`
+3. `nvm install` (reads `.nvmrc`, installs Node 22 if not present and switches to it)
 4. `npm install`
 5. `npm run build` (or `npm run serve` for a dev server with live reload)

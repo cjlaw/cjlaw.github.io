@@ -4,6 +4,8 @@ src/
 assets/
 scripts/
 gulpfile.js
-CLAUDE.md
+AGENTS.md
+.ai/
+.claude/
 README.md
 LICENSE.txt

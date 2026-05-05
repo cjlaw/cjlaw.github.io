@@ -2,3 +2,7 @@ _site
 assets
 node_modules
 .DS_Store
+
+# AI working state
+.ai/reviews/
+.ai/context/

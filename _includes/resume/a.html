@@ -1,2 +1,7 @@
-{% assign protocol = href | strip | slice: 0, 4 %}
-<a href="{% if protocol != 'http' %}//{% endif %}{{ href }}" target="_blank" class="{{ class }}">
+{% assign _href = href | strip %}
+{% if _href contains '://' or _href contains 'mailto:' or _href contains 'tel:' %}
+  {% assign _qualified = true %}
+{% else %}
+  {% assign _qualified = false %}
+{% endif %}
+<a href="{% unless _qualified %}//{% endunless %}{{ _href }}" target="_blank" rel="noopener noreferrer" class="{{ class }}">

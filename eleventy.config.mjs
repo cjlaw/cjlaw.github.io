@@ -1,10 +1,10 @@
 import markdownIt from 'markdown-it';
-import yaml from 'js-yaml';
+import { load as loadYaml } from 'js-yaml';
 
 const md = new markdownIt();
 
 export default function (eleventyConfig) {
-  eleventyConfig.addDataExtension('yml,yaml', (contents) => yaml.load(contents));
+  eleventyConfig.addDataExtension('yml,yaml', (contents) => loadYaml(contents));
 
   eleventyConfig.addPassthroughCopy('assets');
   eleventyConfig.addPassthroughCopy('favicon.ico');

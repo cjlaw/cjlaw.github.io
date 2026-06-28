@@ -36,7 +36,7 @@
   - `resume.html` is standalone and writes to `/resume/`.
 - `npm run serve` watches Eleventy templates/data, but it does not rebuild Sass, JS, fonts, vendor JS, or optimized images.
 - After Sass/JS/image/font/vendor changes, run the specific asset build or `npm run build` before checking the site.
-- GitHub Pages deploys from GitHub Actions on pushes to `master`; Pages settings must use "GitHub Actions" as the source.
+- GitHub Pages deploys from GitHub Actions on pushes to `main`; Pages settings must use "GitHub Actions" as the source.
 
 ## Codebase Structure
 
@@ -89,13 +89,13 @@
 - `projects.yml` image paths should point at `/assets/img/...`, but source images belong in `src/img/`.
 - The resume theme and home theme have separate Sass trees; changes to one usually do not affect the other.
 - Do not assume Jekyll filters or include semantics work here; this is Eleventy 3 with LiquidJS.
-- The deploy branch is `master`, not `main`.
+- The deploy branch is `main`, not `master`.
 
 ## Code review
 
 When performing a review:
 
-- Follow `.ai/code_review.md`
+- Follow `../standards/code_review.md` (and `./code_review.md` if present)
 - Write results to `.ai/reviews/current.md`
 - Overwrite the file each run
 - Only include actionable issues (no summaries or praise)

@@ -82,7 +82,8 @@
 ## Project-Specific Pitfalls
 
 - `assets/` and `_site/` are ignored; CI rebuilds them and deploys `_site`.
-- `eleventy.config.mjs` input is repo root (`.`), so root HTML files are real templates.
+- `eleventy.config.mjs` input is repo root (`.`), so root HTML *and markdown* files are real templates. Every root-level doc — including symlinks like `CLAUDE.md` -> `AGENTS.md` — needs its own `.eleventyignore` entry; ignoring the target does not ignore the link.
+- Liquid runs before markdown, so `{% ... %}` inside backticks or fenced code blocks in a root markdown file still executes and can fail the build. Backticks are not an escape; `.eleventyignore` is.
 - `CNAME` and `favicon.ico` are passthrough files; do not move them without updating Eleventy config.
 - `resume/a.html` prepends `//` to links that do not start with `http`; pass full URLs when protocol-specific behavior matters.
 - Resume entries support either `job_title`/`dates` or a `jobs:` list; preserve the existing shape for multi-title companies.

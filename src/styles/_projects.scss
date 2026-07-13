@@ -1,3 +1,5 @@
+@use "vars";
+
 #projects {
   display: flex;
   flex-direction: column;
@@ -6,7 +8,7 @@
   max-width: 960px;
   margin: 0 auto;
   text-align: center;
-  @media only screen and (min-width: $cut) {
+  @media only screen and (min-width: vars.$cut) {
     width: 80%;
     text-align: start;
   }
@@ -23,7 +25,7 @@
     margin: 0;
   }
   li {
-    color: $main;
+    color: vars.$main;
     font-size: 1.1rem;
   }
   p {
@@ -32,7 +34,7 @@
 }
 
 .contents-left {
-  @media only screen and (min-width: $cut) {
+  @media only screen and (min-width: vars.$cut) {
     margin-left: 0;
     width: 48%;
 
@@ -44,31 +46,31 @@
 }
 
 .contents-right {
-  @media only screen and (min-width: $cut) {
+  @media only screen and (min-width: vars.$cut) {
     float: right;
     margin-top: -5%;
     width: 48%;
   }
 }
 .images-right {
-  @media only screen and (min-width: $cut) {
+  @media only screen and (min-width: vars.$cut) {
     float: right;
     width: 48%;
   }
   img {
-    @media only screen and (min-width: $cut) {
+    @media only screen and (min-width: vars.$cut) {
       float: right;
     }
   }
 }
 
 .images-left {
-  @media only screen and (min-width: $cut) {
+  @media only screen and (min-width: vars.$cut) {
     float: left;
     width: 48%;
   }
   img {
-    @media only screen and (min-width: $cut) {
+    @media only screen and (min-width: vars.$cut) {
       float: left;
     }
   }
@@ -78,9 +80,9 @@
   display: inline-block;
   margin: 10px 0px;
   padding: 5px;
-  color: $main;
+  color: vars.$main;
   background-color: transparent;
-  border: 1px solid $main;
+  border: 1px solid vars.$main;
   border-radius: 10px;
   text-align: center;
   outline: none;
@@ -90,16 +92,16 @@
               background-color 0.3s ease-out,
               border-color 0.3s ease-out;
   &:hover {
-    background-color: $purple;
-    border-color: $purple;
+    background-color: vars.$purple;
+    border-color: vars.$purple;
     color: #fff;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
                 border-color 0.3s ease-in;
   }
   &:active {
-    background-color: $purple;
-    border-color: $purple;
+    background-color: vars.$purple;
+    border-color: vars.$purple;
     color: #fff;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,

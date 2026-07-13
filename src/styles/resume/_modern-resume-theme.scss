@@ -1,8 +1,8 @@
-@import "base";
-@import "button";
-@import "type";
-@import "dark";
-@import "icons";
+@use "base";
+@use "button";
+@use "type";
+@use "dark";
+@use "icons";
 
 .header-right p {
   margin-bottom: 3px;

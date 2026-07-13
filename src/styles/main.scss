@@ -1,10 +1,9 @@
-@import "lib/normalize";
-@import "lib/fontawesome";
+@use "lib/normalize";
+@use "lib/fontawesome";
 
-@import 'base';
-@import 'vars';
-@import 'animation';
-@import 'header';
-@import 'about';
-@import 'projects';
-@import 'footer';
+@use "base";
+@use "animation";
+@use "header";
+@use "about";
+@use "projects";
+@use "footer";

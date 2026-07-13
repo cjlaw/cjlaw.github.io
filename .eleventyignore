@@ -5,6 +5,7 @@ assets/
 scripts/
 gulpfile.js
 AGENTS.md
+CLAUDE.md
 .ai/
 .claude/
 README.md

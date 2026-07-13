@@ -27,6 +27,34 @@
     font-size: 16px;
   }
   @media only screen and (min-width: $cut) {
+  // Devicons ships a monochrome icon font, so each glyph is tinted by hand.
+  .devicons-c-sharp {
+    color: #68217a;
+  }
+  .devicons-typescript-icon {
+    color: #3178c6;
+  }
+  .devicons-kotlin-icon {
+    color: #7f52ff;
+  }
+  .devicons-dotnet {
+    color: #512bd4;
+  }
+  .devicons-react {
+    color: #61dafb;
+  }
+  .devicons-angular-icon {
+    color: #dd0031;
+  }
+  .devicons-claude-code {
+    color: #d97757;
+  }
+  .devicons-openai {
+    color: #000;
+  }
+  .devicons-windsurf-icon {
+    color: #000;
+  }
     flex-wrap: nowrap;
     font-size: 75px;
   }

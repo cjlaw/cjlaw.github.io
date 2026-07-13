@@ -10,8 +10,11 @@
       dates: January 2020 - December 2021
   quote:
   description: |
-    Software development manager and hands-on tech lead at Accenture, a global professional services company, with experience across enterprise SaaS companies and federal health agencies. Led globally distributed teams of up to 40 across 9 engagements spanning cloud migration, application modernization, custom data integrations, and end-to-end feature delivery across complex product suites.
-    Scaled a delivery team from 6 to 20 in under 2 months to meet an aggressive product release window and client KPIs, resulting in a follow-on engagement. Also led a 100+ repository migration from BitBucket to GitHub as part of a CI/CD overhaul that consolidated tooling across teams.
+    Manager in Accenture's Software & Platforms practice, progressing from senior individual contributor to technical lead and engineering manager roles. Led globally distributed teams of up to 40 members across nine engagements delivering enterprise web and cloud applications for product companies and federal health agencies through Accenture Federal Services. Responsibilities have included technical direction, engineering execution, team development, staffing, delivery oversight, and performance input, while remaining closely involved in hands-on problem solving.
+
+    Work has spanned cloud migration, application modernization, custom data integrations, and end-to-end feature delivery.
+
+    Scaled a delivery team from 6 to 20 in under two months to meet an aggressive product release window and client KPIs, helping secure a follow-on engagement. Also led a migration of more than 100 repositories from Bitbucket to GitHub as part of a CI/CD overhaul that consolidated tooling across teams.
 
 - layout: left
   company: Fairway Technologies
@@ -23,7 +26,9 @@
       dates: August 2017 - August 2018
   quote:
   description: |
-    Lead developer and hands-on tech lead at Fairway Technologies, a boutique software consulting firm. Led and contributed to the deliery of custom web applications and client-facing products across a varied client base, working directly with clients across all aspects of the software delivery lifecycle. Progressed from senior to lead developer, taking on increasing technical and team leadership responsibilities across multiple engagements.
+    Lead developer and hands-on technical lead at Fairway Technologies, a boutique software consulting firm. Led and contributed to the delivery of custom web applications and client-facing products across a varied client base, partnering directly with clients throughout the software delivery lifecycle and working alongside cross-functional teams.
+
+    Progressed from senior developer to lead developer, taking on increasing technical and team leadership responsibilities across multiple engagements.
 
 - layout: left
   company: Headspring
@@ -32,7 +37,7 @@
   dates: June 2014 - August 2017
   quote:
   description: |
-    Senior consultant and full-stack .NET developer at Headspring, a specialized software consulting firm. Designed and developed custom web and mobile applications across 12+ clients in a variety of industries including human resources, healthcare, non-profit, e-commerce, and education, engaging directly with clients throughout the full software delivery process.
+    Senior consultant and full-stack .NET developer at Headspring, a specialized software consulting firm. Designed and developed custom web applications and client-facing solutions for more than 12 clients across industries including human resources, healthcare, nonprofit, e-commerce, and education. Engaged directly with clients throughout the full software delivery process.
 
 - layout: left
   company: CGI Federal
@@ -44,4 +49,4 @@
       dates: March 2012 - December 2013
   quote:
   description: |
-    Front-end developer at CGI Federal, a professional services firm serving federal agencies. Delivered high-visibility public-facing healthcare applications and internal agency tools, engaging directly with agency stakeholders. Informally led a small team of front-end developers while remaining hands-on.
+    Consultant and front-end developer at CGI Federal, a professional services firm serving federal agencies. Delivered high-visibility public-facing healthcare applications and internal agency tools while working directly with agency stakeholders. Informally led a small team of front-end developers while remaining hands-on.

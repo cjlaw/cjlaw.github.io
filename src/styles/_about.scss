@@ -28,15 +28,26 @@
   p {
     font-size: 16px;
   }
+  // Flex + align-items centers the SVG against the font glyphs regardless of
+  // font baseline metrics.
+  .tech-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2em;
+  }
+  // Python is a full-color logo, so it's an <img> pointing at an SVG rather than
+  // a tinted font glyph.
+  .tech-icon {
+    width: 1em;
+    height: 1em;
+  }
   // Devicons ships a monochrome icon font, so each glyph is tinted by hand.
   .devicons-c-sharp {
     color: #68217a;
   }
   .devicons-typescript-icon {
     color: #3178c6;
-  }
-  .devicons-kotlin-icon {
-    color: #7f52ff;
   }
   .devicons-dotnet {
     color: #512bd4;
@@ -50,7 +61,7 @@
   .devicons-claude-code {
     color: #d97757;
   }
-  .devicons-openai {
+  .devicons-openai-icon {
     color: #000;
   }
   .devicons-windsurf-icon {

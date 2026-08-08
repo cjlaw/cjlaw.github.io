@@ -18,7 +18,13 @@
     "build:assets": "npm-run-all build:css build:js copy:vendor-js copy:fonts build:img",
     "build:eleventy": "eleventy",
     "build": "npm-run-all build:assets build:eleventy",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "watch:css:main": "npm run build:css:main -- --watch",
+    "watch:css:resume": "npm run build:css:resume -- --watch",
+    "watch:js": "npm run build:js -- --watch=forever",
+    "watch:vendor-js": "npm run copy:vendor-js -- --watch",
+    "watch:fonts": "npm run copy:fonts -- --watch",
+    "dev": "npm-run-all build:assets --parallel watch:css:main watch:css:resume watch:js watch:vendor-js watch:fonts serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",

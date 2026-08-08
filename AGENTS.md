@@ -8,7 +8,8 @@
 ## Commands
 
 - Install: `nvm use` then `npm install`; CI uses `npm ci`.
-- Dev server: `npm run serve`.
+- Dev server with asset watching + live reload: `npm run dev` (preferred).
+- Dev server, Eleventy only: `npm run serve`.
 - Full build: `npm run build`.
 - Build assets only: `npm run build:assets`.
 - Build Eleventy only: `npm run build:eleventy`.
@@ -34,8 +35,9 @@
 - Preserve the two-page shape unless explicitly asked to redesign routing:
   - `index.html` is front matter only and renders through `_layouts/default.html`.
   - `resume.html` is standalone and writes to `/resume/`.
-- `npm run serve` watches Eleventy templates/data, but it does not rebuild Sass, JS, fonts, vendor JS, or optimized images.
-- After Sass/JS/image/font/vendor changes, run the specific asset build or `npm run build` before checking the site.
+- `npm run serve` watches Eleventy templates/data only; it does not rebuild Sass, JS, fonts, vendor JS, or images.
+- `npm run dev` adds Sass/JS/font/vendor watchers alongside the server and live-reloads the browser. Images are not watched — `sharp` has no watch mode, so run `npm run build:img` by hand after touching `src/img/`.
+- After image changes, or after any change made while `npm run dev` was not running, run the specific asset build or `npm run build` before checking the site.
 - GitHub Pages deploys from GitHub Actions on pushes to `main`; Pages settings must use "GitHub Actions" as the source.
 
 ## Codebase Structure

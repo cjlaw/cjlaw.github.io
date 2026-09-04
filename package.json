@@ -30,7 +30,7 @@
     "@11ty/eleventy": "^3.1.6",
     "cpx2": "^9.0.0",
     "esbuild": "^0.28.2",
-    "js-yaml": "^5.3.0",
+    "js-yaml": "^5.4.1",
     "markdown-it": "^15.0.1",
     "npm-run-all": "^4.1.5",
     "sass": "^1.103.1",
